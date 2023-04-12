@@ -1,7 +1,18 @@
 import streamlit as st
 import pandas as pd
 import time
+
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn import preprocessing
+
 import base64
+import os.path
+
+import os
+
+
 
 from Stages import Stage1, Stage2, Stage3
 
