@@ -86,11 +86,11 @@ def app(session_in):
     #st.markdown("<h3 style='text-align: left; color: black;'>Stage1. 데이터파일 전처리하기</h3>", unsafe_allow_html=True)
     tic1,tic2,tic3 = st.columns(3)
     with tic1: 
-        st.image('Stage1_c.png',use_column_width='always')
+        st.image('./pictures/stage1_c.png',use_column_width='always')
     with tic2: 
-        st.image('Stage2_m.png',use_column_width='always')
+        st.image('./pictures/stage2_m.png',use_column_width='always')
     with tic3: 
-        st.image('Stage3_m.png',use_column_width='always')
+        st.image('./pictures/stage3_m.png',use_column_width='always')
     st.write("")
     st.write("")
     
