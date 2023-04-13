@@ -330,7 +330,7 @@ def app(session_in):
                         st.pyplot(fig)
             
             elif pred_process == '단일 품질결과(CTQ) 예측':
-                pred2c1,pred2c2 = st.columns(2, gap="large")
+                pred2c1,pred2c2 = st.columns(2)
                 
                 with predc1:
                     st.markdown("**▼ CTP 입력**")
@@ -379,7 +379,7 @@ def app(session_in):
                 
                 st.write("")
                 
-                pred2c1,pred2c2 = st.columns(2, gap="large")
+                pred2c1,pred2c2 = st.columns(2)
                 
                 with pred2c1:
                     if st.button("엑셀 데이터영역 붙여넣은 후 Click"):
