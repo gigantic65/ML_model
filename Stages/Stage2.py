@@ -328,9 +328,9 @@ def app(session_in):
     st.write("")
     #st.markdown("<h3 style='text-align: left; color: black;'>Stage2. 머신러닝모델 생성하기</h3>", unsafe_allow_html=True)
     tic1,tic2,tic3 = st.columns(3)
-    with tic1: st.image('./pictures/Stage1_m.png',use_column_width='always')
-    with tic2: st.image('./pictures/Stage2_c.png',use_column_width='always')
-    with tic3: st.image('./pictures/Stage3_m.png',use_column_width='always')
+    with tic1: st.image('./pictures/stage1_m.png',use_column_width='always')
+    with tic2: st.image('./pictures/stage2_c.png',use_column_width='always')
+    with tic3: st.image('./pictures/stage3_m.png',use_column_width='always')
     st.write("")
     st.write("")
 
