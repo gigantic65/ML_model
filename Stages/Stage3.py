@@ -227,7 +227,7 @@ def app(session_in):
             st.write("")
             st.write("")
             
-            predc1,predc2 = st.columns(2, gap="large")
+            predc1,predc2 = st.columns(2)
             
             if pred_process == '최적 공정조건(CTP) 예측':
                 with predc1:
