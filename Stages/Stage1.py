@@ -225,7 +225,7 @@ def app(session_in):
             st.write("")
             st.markdown('**▼ 데이터 가공 결과**')
         
-        lv3c1,lv3c2 = st.columns(2, gap="large")
+        lv3c1,lv3c2 = st.columns(2)
         
         with lv3c1:
             if st.session_state[ms_in] == True:
