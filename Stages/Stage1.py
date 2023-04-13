@@ -113,12 +113,12 @@ def app(session_in):
     
     with lv1c2:
         example = st.selectbox("예제 데이터",('Select ▼','예제1', '예제2'))
-        if example == '예제1': st.session_state[d10] = pd.read_csv('./examples/example1.csv')
-        elif example == '예제2': st.session_state[d10] = pd.read_csv('./examples/example2.csv')
+        if example == '예제1': st.session_state[d10] = pd.read_csv('./examples/Example1.csv')
+        elif example == '예제2': st.session_state[d10] = pd.read_csv('./examples/Example2.csv')
     
     with lv1c3:
         st.markdown("<p style='font-size:14px'>양식 다운로드</p>", unsafe_allow_html=True)
-        st_pandas_to_csv_download_link(pd.read_csv('./examples/example1.csv'), file_name = "example1.csv", itx="example1.csv")
+        st_pandas_to_csv_download_link(pd.read_csv('./examples/Example1.csv'), file_name = "Example1.csv", itx="Example1.csv")
     #버튼 데이터와 예제 데이터 변경 시 이상 > selectbox 초기화 방법 있을까?
     
     st.write("")
