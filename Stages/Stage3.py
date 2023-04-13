@@ -202,7 +202,7 @@ def app(session_in):
                 st.session_state[model_review] = [model_name,R2_mean[0],R2_std[0]]
                 st.experimental_rerun()
             else:
-                lv2c1,lv2c2,lv2c3 = st.columns(3, gap="large")
+                lv2c1,lv2c2,lv2c3 = st.columns(3)
                 
                 with lv2c1:
                     st.write('모델명:')
