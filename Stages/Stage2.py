@@ -593,11 +593,11 @@ def app(session_in):
                 st.markdown('**※ Voting 기법과 하이퍼파라미터 최적화 중 택1**')
                 st.write("")
                 
-                mfcol1,mfcol2 = st.columns(2, gap="large")
-                selm1,selm2 = st.columns(2, gap="large")
+                mfcol1,mfcol2 = st.columns(2)
+                selm1,selm2 = st.columns(2)
                 selp0,selp_gap1,selp1,selp_gap2,selp2 = st.columns([15,1,7,1,7])
-                btnc1,btnc2 = st.columns(2, gap="large")
-                resc1,resc2 = st.columns(2, gap="large")
+                btnc1,btnc2 = st.columns(2)
+                resc1,resc2 = st.columns(2)
                 
                 with mfcol1:
                     st.markdown('**5.1. 모델 최적화(Voting기법)**')
