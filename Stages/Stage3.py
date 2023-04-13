@@ -62,9 +62,9 @@ def app(session_in):
     st.write("")
     #st.markdown("<h2 style='text-align: left; color: black;'>Stage3. 최적 조건 예측</h2>", unsafe_allow_html=True)
     tic1,tic2,tic3 = st.columns(3)
-    with tic1: st.image('./pictures/Stage1_m.png',use_column_width='always')
-    with tic2: st.image('./pictures/Stage2_m.png',use_column_width='always')
-    with tic3: st.image('./pictures/Stage3_c.png',use_column_width='always')
+    with tic1: st.image('./pictures/stage1_m.png',use_column_width='always')
+    with tic2: st.image('./pictures/stage2_m.png',use_column_width='always')
+    with tic3: st.image('./pictures/stage3_c.png',use_column_width='always')
     st.write("")
     st.write("")
     
