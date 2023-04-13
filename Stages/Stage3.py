@@ -128,7 +128,7 @@ def app(session_in):
         if len(df_y) > 0: y = df_y.columns.tolist()
         else: y = []
         
-        lv1c1,lv1c2 = st.columns(2, gap="large")
+        lv1c1,lv1c2 = st.columns(2)
         
         with lv1c1:
             st.markdown("**· 공정인자(CTP)**")
