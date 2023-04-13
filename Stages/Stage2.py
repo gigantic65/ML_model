@@ -877,7 +877,7 @@ def app(session_in):
                 
                 Model = st.selectbox('하이퍼파라미터 튜닝 - 알고리즘 선택하기', M_list_names)
                 
-                selp1,selp2 = st.columns(2, gap="large")
+                selp1,selp2 = st.columns(2)
                 
                 if Model in ['Linear Regression','Lasso','Decision_Tree']:
                     st.markdown('_해당 알고리즘은 해당되지 않습니다._')
