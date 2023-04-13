@@ -699,7 +699,7 @@ def app(session_in):
                                 st.write("")
                                 st.markdown('**_· 학습 데이터(.xlsx) & 학습 완료 모델(.pkl) 저장하기_**')
                                 
-                                download_data_xlsx(df3[Selected_X2],df3[Selected_y])
+                                #download_data_xlsx(df3[Selected_X2],df3[Selected_y])
                                 download_model(0,model)
                                 st.caption("**_※ 저장 폴더 지정 방법 : 마우스 우클릭 → [다른 이름으로 링크 저장]_**")
                                 
