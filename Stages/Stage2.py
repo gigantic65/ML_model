@@ -404,7 +404,7 @@ def app(session_in):
         if st.button('상관관계 분석'):
             corr = df22.corr()
             
-            see1, see2 = st.columns(2, gap="large")
+            see1, see2 = st.columns(2)
             
             with see1:
                 plt.figure()
