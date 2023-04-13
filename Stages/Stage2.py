@@ -381,7 +381,7 @@ def app(session_in):
         
         x = list(df2.columns)
         
-        lv1c1,lv1c2 = st.columns(2, gap="large")
+        lv1c1,lv1c2 = st.columns(2)
         
         with lv1c1:
             st.markdown("**2.1 공정인자(CTP) 선택**")
