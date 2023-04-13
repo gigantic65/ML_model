@@ -996,7 +996,7 @@ def app(session_in):
                     predictions = model.predict(X)
                     predictions = pd.DataFrame(predictions)
                     
-                    mfresc1,mfresc2 = st.columns(2, gap="large")
+                    mfresc1,mfresc2 = st.columns(2)
                     
                     with mfresc1:
                         st.write('튜닝  모델 정확도 ($R^2$):')
