@@ -133,7 +133,7 @@ def app(session_in):
     if st.session_state[d10] is not None:
         df = st.session_state[d10]
         
-        lv2c1,lv2c2 = st.columns(2, gap="large")
+        lv2c1,lv2c2 = st.columns(2)
         
         with lv2c1:
             st.markdown('**1.1 입력 데이터 세트(Data Set)**')
