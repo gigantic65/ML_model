@@ -479,7 +479,7 @@ def app(session_in):
         
         st.write("")
         if st.session_state[rfe_ss] is not None:
-            myc0,myc1,myc2 = st.columns(3, gap="large")
+            myc0,myc1,myc2 = st.columns(3)
             
             with myc0:
                 st.markdown("**3.1 CTP 별 영향도 분석**")
